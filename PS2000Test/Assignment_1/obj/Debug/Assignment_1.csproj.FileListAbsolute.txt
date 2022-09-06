@@ -1,0 +1,14 @@
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\bin\Debug\Assignment_1.exe.config
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\bin\Debug\Assignment_1.exe
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\bin\Debug\Assignment_1.pdb
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\bin\Debug\System.IO.Ports.dll
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\bin\Debug\System.IO.Ports.xml
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.csproj.AssemblyReference.cache
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.Form1.resources
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.Properties.Resources.resources
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.csproj.GenerateResource.cache
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.csproj.CoreCompileInputs.cache
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.csproj.CopyComplete
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.exe
+C:\Users\oskar\Desktop\SAD\Programmer-oppgaver\PS2000Test\Assignment_1\obj\Debug\Assignment_1.pdb
