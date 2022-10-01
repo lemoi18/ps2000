@@ -8,6 +8,8 @@ namespace PSUManager
 {
     public interface IPSU
     {
+
+        public string? Comlink { get; set; }    
         public double GetVoltage();
         public void SetVoltage(float Value, byte three);
     }

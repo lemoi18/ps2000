@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\GUI\\GUI.csproj": {}
+    "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\GUI\\GUI.csproj": {
+    "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\GUI\\GUI.csproj",
+        "projectUniqueName": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\GUI\\GUI.csproj",
-        "packagesPath": "C:\\Users\\Skole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\GUI\\obj\\",
+        "projectPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj",
+        "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Skole\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\PSUManager\\PSUManager.csproj": {
-                "projectPath": "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\PSUManager\\PSUManager.csproj"
+              "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj": {
+                "projectPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj"
               }
             }
           }
@@ -66,25 +62,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\PSUManager\\PSUManager.csproj": {
+    "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\PSUManager\\PSUManager.csproj",
+        "projectUniqueName": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj",
         "projectName": "PSUManager",
-        "projectPath": "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\PSUManager\\PSUManager.csproj",
-        "packagesPath": "C:\\Users\\Skole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Skole\\source\\Ny mappe\\PS2000Test\\PSUManager\\obj\\",
+        "projectPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj",
+        "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Skole\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,7 +123,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

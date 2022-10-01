@@ -18,6 +18,8 @@ namespace PSUManager
     {
 
 
+        public string? Comlink { get; set; }
+
 
         public  List<byte> SendTelegram(string COM, byte[] bytesToSend)
         {
