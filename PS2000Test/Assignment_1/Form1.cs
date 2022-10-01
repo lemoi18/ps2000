@@ -152,6 +152,9 @@ namespace Assignment_1
         public Form1()
         {
             InitializeComponent();
+
+            
+
             textBox2.Text = Remote_On(0x10, 0x00, 0x37).ToString();
             Remote.Text = "Turn On Remote";
             txtBoxVoltage.Text = Get_Voltage().ToString();
