@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EG1CCcQBU1Y2CdkWYvHSIZfYiYcVxgxtvKpluSVKjMbeOv3AS+J+D3kBr5nvttTeQreDTp6drMlVbetHnvxN/A==",
+  "dgSpecHash": "kv1nqO5O2Es7sRbOEcnJ4JFtEgCZpOOwdTUsfCrH3zGI+D31AzdFsa4PLgGfvwaQFRS3CkvtUi+f7pNM8HPitA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj",
+  "projectFilePath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lars\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\Lars\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",

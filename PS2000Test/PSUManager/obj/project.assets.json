@@ -85,6 +85,16 @@
             "rid": "win"
           }
         }
+      },
+      "PSULibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PSULibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PSULibrary.dll": {}
+        }
       }
     }
   },
@@ -216,10 +226,16 @@
         "system.io.ports.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PSULibrary/1.0.0": {
+      "type": "project",
+      "path": "../PSULibrary/PSULibrary.csproj",
+      "msbuildProject": "../PSULibrary/PSULibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "PSULibrary >= 1.0.0",
       "System.IO.Ports >= 6.0.0"
     ]
   },
@@ -229,11 +245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj",
+      "projectUniqueName": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj",
       "projectName": "PSUManager",
-      "projectPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj",
+      "projectPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj",
       "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\obj\\",
+      "outputPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSUManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -249,7 +265,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSULibrary\\PSULibrary.csproj": {
+              "projectPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSULibrary\\PSULibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj": {}
+    "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj": {
+    "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj",
+        "projectUniqueName": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj",
         "projectName": "PS2000Test",
-        "projectPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj",
+        "projectPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj",
         "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PS2000Test\\obj\\",
         "projectStyle": "PackageReference",

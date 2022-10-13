@@ -1,0 +1,15 @@
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\bin\Debug\net6.0\PSUManager.deps.json
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\bin\Debug\net6.0\PSUManager.dll
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\bin\Debug\net6.0\PSUManager.pdb
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\bin\Debug\net6.0\PSULibrary.dll
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\bin\Debug\net6.0\PSULibrary.pdb
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\PSUManager.csproj.AssemblyReference.cache
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\PSUManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\PSUManager.AssemblyInfoInputs.cache
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\PSUManager.AssemblyInfo.cs
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\PSUManager.csproj.CoreCompileInputs.cache
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\PSUManager.csproj.CopyComplete
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\PSUManager.dll
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\refint\PSUManager.dll
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\PSUManager.pdb
+C:\Users\Lars\source\repos\ps2000\PS2000Test\PSUManager\obj\Debug\net6.0\ref\PSUManager.dll

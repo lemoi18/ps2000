@@ -14,12 +14,19 @@ using System.Threading.Tasks;
 
 namespace PSUManager
 {
-    public class PSUMan: IPSU
+    public class PSUMan: PSULibrary.IPSU
     {
+        private string? comlink;
 
+        public string? GetComlink()
+        {
+            return comlink;
+        }
 
-        public string? Comlink { get; set; }
-
+        public void SetComlink(string? value)
+        {
+            comlink = value;
+        }
 
         public  List<byte> SendTelegram(string COM, byte[] bytesToSend)
         {
@@ -103,10 +110,10 @@ namespace PSUManager
             int SDHex = (int)0x40 + (int)0x20 + 0x10 + 5; //6-1 ref spec 3.1.1
             byte SD = Convert.ToByte(SDHex.ToString(), 10);
             byte[] byteWithOutCheckSum = { SD, (int)0x00, (int)0x47, 0x0, 0x0 }; // quert status
-            List<byte> checksum = SendTelegram("com4", byteWithOutCheckSum);
+            List<byte> checksum = SendTelegram(comlink, byteWithOutCheckSum);
             byte[] bytesToSend = { 0x74, 0x00, 0x02, 0x00, 0x76 };
 
-            List<byte> voltageFromTele = SendTelegram("com4", bytesToSend);
+            List<byte> voltageFromTele = SendTelegram(comlink, bytesToSend);
 
             if (voltageFromTele == null)
             {
@@ -128,7 +135,7 @@ namespace PSUManager
             // get nominal voltage
             
             byte[] bytesToSend = { 0x74, 0x00, three, 0x00, five };
-            List<byte> response = SendTelegram("com4", bytesToSend);
+            List<byte> response = SendTelegram(comlink, bytesToSend);
 
 
             if (response == null)
@@ -170,7 +177,7 @@ namespace PSUManager
             List<string> listwithcheckafter = checksum(0, newbytesWithoutChecksum);
 
            
-            List<byte> newResponseTelegram = SendTelegram("com4", newbytesWithoutChecksum);
+            List<byte> newResponseTelegram = SendTelegram(comlink, newbytesWithoutChecksum);
 
             if (newResponseTelegram[3] == 0)
             {
@@ -191,7 +198,7 @@ namespace PSUManager
         {
 
             byte[] bytesToSendToTurnOnRC = new byte[] { 0xF1, 0x00, 0x36, four, five, 0x01, seven }; // Turn on remote control
-            List<byte> RCresponse = SendTelegram("Com4", bytesToSendToTurnOnRC);
+            List<byte> RCresponse = SendTelegram(comlink, bytesToSendToTurnOnRC);
 
             if (RCresponse[3] == 0)
             {

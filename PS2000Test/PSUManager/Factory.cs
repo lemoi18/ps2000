@@ -10,7 +10,7 @@ namespace PSUManager
     {
 
 
-        public static IPSU CreatePSU()
+        public static PSULibrary.IPSU CreatePSU()
         {
             return new PSUMan();
         }

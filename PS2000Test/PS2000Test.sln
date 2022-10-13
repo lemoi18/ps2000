@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI", "GUI\GUI.csproj", "{8
 		{B92645F9-E2AB-44F5-A773-6A8B29FED00D} = {B92645F9-E2AB-44F5-A773-6A8B29FED00D}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSULibrary", "PSULibrary\PSULibrary.csproj", "{C52FEB96-FDE2-417B-80F1-C4CE58711787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8F59E7BC-EA32-48D6-B559-729E29A8B4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F59E7BC-EA32-48D6-B559-729E29A8B4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F59E7BC-EA32-48D6-B559-729E29A8B4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52FEB96-FDE2-417B-80F1-C4CE58711787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52FEB96-FDE2-417B-80F1-C4CE58711787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52FEB96-FDE2-417B-80F1-C4CE58711787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52FEB96-FDE2-417B-80F1-C4CE58711787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

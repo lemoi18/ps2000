@@ -86,10 +86,21 @@
           }
         }
       },
+      "PSULibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PSULibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PSULibrary.dll": {}
+        }
+      },
       "PSUManager/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "PSULibrary": "1.0.0",
           "System.IO.Ports": "6.0.0"
         },
         "compile": {
@@ -230,6 +241,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "PSULibrary/1.0.0": {
+      "type": "project",
+      "path": "../PSULibrary/PSULibrary.csproj",
+      "msbuildProject": "../PSULibrary/PSULibrary.csproj"
+    },
     "PSUManager/1.0.0": {
       "type": "project",
       "path": "../PSUManager/PSUManager.csproj",
@@ -238,6 +254,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "PSULibrary >= 1.0.0",
       "PSUManager >= 1.0.0"
     ]
   },
@@ -247,11 +264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj",
+      "projectPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\GUI\\GUI.csproj",
       "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\GUI\\obj\\",
+      "outputPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\GUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -268,8 +285,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj": {
-              "projectPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj"
+            "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSULibrary\\PSULibrary.csproj": {
+              "projectPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSULibrary\\PSULibrary.csproj"
+            },
+            "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj": {
+              "projectPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PSUManager\\PSUManager.csproj"
             }
           }
         }
