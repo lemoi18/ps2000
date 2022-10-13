@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj": {}
+    "C:\\Users\\Skole\\Source\\Repos\\lemoi18\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj": {
+    "C:\\Users\\Skole\\Source\\Repos\\lemoi18\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj",
+        "projectUniqueName": "C:\\Users\\Skole\\Source\\Repos\\lemoi18\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj",
         "projectName": "PS2000Test",
-        "projectPath": "C:\\Users\\Lars\\source\\repos\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj",
-        "packagesPath": "C:\\Users\\Lars\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lars\\Source\\Repos\\ps2000\\PS2000Test\\PS2000Test\\obj\\",
+        "projectPath": "C:\\Users\\Skole\\Source\\Repos\\lemoi18\\ps2000\\PS2000Test\\PS2000Test\\PS2000Test.csproj",
+        "packagesPath": "C:\\Users\\Skole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Skole\\Source\\Repos\\lemoi18\\ps2000\\PS2000Test\\PS2000Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lars\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Skole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

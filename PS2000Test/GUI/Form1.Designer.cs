@@ -103,6 +103,7 @@
             this.Device_text.Name = "Device_text";
             this.Device_text.Size = new System.Drawing.Size(100, 23);
             this.Device_text.TabIndex = 5;
+            this.Device_text.TextChanged += new System.EventHandler(this.Device_text_TextChanged);
             // 
             // Serial_Text
             // 

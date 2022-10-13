@@ -10,3 +10,15 @@ C:\Users\Lars\source\repos\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibr
 C:\Users\Lars\source\repos\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\refint\PSULibrary.dll
 C:\Users\Lars\source\repos\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibrary.pdb
 C:\Users\Lars\source\repos\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\ref\PSULibrary.dll
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\bin\Debug\net6.0\PSULibrary.deps.json
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\bin\Debug\net6.0\PSULibrary.dll
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\bin\Debug\net6.0\PSULibrary.pdb
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibrary.csproj.AssemblyReference.cache
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibrary.AssemblyInfoInputs.cache
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibrary.AssemblyInfo.cs
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibrary.csproj.CoreCompileInputs.cache
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibrary.dll
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\refint\PSULibrary.dll
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\PSULibrary.pdb
+C:\Users\Skole\Source\Repos\lemoi18\ps2000\PS2000Test\PSULibrary\obj\Debug\net6.0\ref\PSULibrary.dll

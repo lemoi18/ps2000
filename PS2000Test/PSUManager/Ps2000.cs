@@ -12,9 +12,9 @@ using System.Threading.Tasks;
 
 
 
-namespace PSUManager
+namespace PS2000
 {
-    public class PSUMan: PSULibrary.IPSU
+    internal class Ps2000: PSULibrary.IPSU
     {
         private string? comlink;
 
@@ -110,7 +110,7 @@ namespace PSUManager
             int SDHex = (int)0x40 + (int)0x20 + 0x10 + 5; //6-1 ref spec 3.1.1
             byte SD = Convert.ToByte(SDHex.ToString(), 10);
             byte[] byteWithOutCheckSum = { SD, (int)0x00, (int)0x47, 0x0, 0x0 }; // quert status
-            List<byte> checksum = SendTelegram(comlink, byteWithOutCheckSum);
+            List<byte> checksum = SendTelegram("Com4", byteWithOutCheckSum);
             byte[] bytesToSend = { 0x74, 0x00, 0x02, 0x00, 0x76 };
 
             List<byte> voltageFromTele = SendTelegram(comlink, bytesToSend);
@@ -212,7 +212,15 @@ namespace PSUManager
             }
         }
 
-        
+        public double Remote_Off(byte five, byte seven)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string Get_DType(byte three, byte five, int obj)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     
