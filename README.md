@@ -2,15 +2,8 @@
 
 This project is a graphical user interface (GUI) for the PS2000 series power supply. The GUI is designed to interact with the device, display its properties, and allow users to control various settings such as voltage and current. 
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Software Architecture](#software-architecture)
-- [Design Patterns](#design-patterns)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+This project was optional project tasked in the course in Software architecture and design
+
 
 ## Project Overview
 
@@ -19,20 +12,29 @@ The PS2000 GUI Application provides a user-friendly interface for controlling an
 ## Software Architecture
 
 This section focuses on the software architecture of the PS2000 GUI Application, informed by the principles discussed in *Software Architecture in Practice* by Bass et al. 
+### Key Features Implemented
 
-### Key Architectural Components
+- **Device Information Display on Startup**: 
+  - Upon startup, the application checks the following details and displays them on the GUI:
+    - **Device Type**
+    - **Serial Number** (with a validation against the actual serial number on the back of the PS2000)
+    - **Nominal Voltage (U)**
+    - **Nominal Current (I)**
+    - **Article Number**
+    - **Manufacturer**
+    - **Software Version**
+  - These values are displayed permanently in the GUI until the program is closed.
 
-- **Device Communication Layer**: Handles the communication between the GUI and the PS2000 power supply via serial ports.
-- **GUI Layer**: Displays device information and controls. The GUI is built to be intuitive and permanent information such as device type, serial number, nominal voltage, current, article number, manufacturer, and software version are displayed on startup and remain visible until the program is closed.
-- **Control Logic**: Manages user interactions, such as setting voltage and current, and enabling or disabling power output and remote control.
+- **Real-Time Monitoring and Control**:
+  - **Display Current Voltage (U)**: The current voltage is shown in the GUI upon button press.
+  - **Display Current Current (I)**: The current is shown in the GUI upon button press.
+  - **Set Desired Voltage (U)**: Allows the user to set the desired voltage through the GUI.
+  - **Set Desired Current (I)**: Allows the user to set the desired current through the GUI.
 
-### Architectural Styles and Patterns
+- **User-Enabled Features**:
+  - **Switch Power Output On/Off**: The GUI allows the user to toggle the power output.
+  - **Switch Remote Control On/Off**: The GUI allows the user to toggle the remote control functionality.
 
-- **Layered Architecture**: The application follows a layered architecture with distinct responsibilities segregated across different layers.
-- **Model-View-Controller (MVC)**: The GUI application leverages the MVC pattern to separate concerns:
-  - **Model**: Represents the data related to the PS2000 device.
-  - **View**: Manages the presentation layer and user interface.
-  - **Controller**: Handles user inputs and updates the Model and View accordingly.
 
 ### Design Considerations
 
