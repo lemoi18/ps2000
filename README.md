@@ -2,7 +2,7 @@
 
 This project is a graphical user interface (GUI) for the PS2000 series power supply. The GUI is designed to interact with the device, display its properties, and allow users to control various settings such as voltage and current. 
 
-#This project was optional project tasked in the course in Software architecture and design
+## This project was optional project tasked in the course in Software architecture and design
 
 
 ## Project Overview
