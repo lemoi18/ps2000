@@ -43,9 +43,54 @@ This section focuses on the software architecture of the PS2000 GUI Application,
 
 This project implements the following design patterns:
 
-- **Singleton**: Ensures a single instance of the communication manager, which handles the interaction between the application and the PS2000 power supply.
-- **Observer**: The GUI components observe changes in the data model and update the display accordingly.
-- **Factory Method**: Used for creating instances of communication objects depending on the type of device detected at startup.
+## Design Patterns and Practices
+
+### Factory Method
+
+The project utilizes the **Factory Method** pattern within the `Factory` class to create instances of different power supplies (`PS2000`, `PS3000`, `TestPsu`). This approach provides flexibility and encapsulates the object creation logic, making it easier to manage and extend.
+
+Here’s an example of the `Factory` class:
+
+```csharp
+using PSULibrary;
+using System;
+
+namespace PS2000
+{
+    public static class Factory
+    {
+        public static PSULibrary.IPSU CreatePSU(string name)
+        {
+            IPSU psu = null;
+
+            if (name.ToUpper() == "PS2000")
+                psu = new Ps2000();
+            else if (name == "Ps3000")
+                psu = new Ps3000();
+            else if (name == "Test")
+                psu = new TestPsu();
+            return psu;
+        }
+
+        public static PSULibrary.IPSU CreatePSU()
+        {
+            IPSU psu = new Ps2000();
+            return psu;
+        }
+    }
+}
+```
+
+## Dependency Injection
+The project implicitly supports Dependency Injection through the use of interfaces (IPSU). By returning an interface (IPSU) from the Factory, the code allows for dependency injection, which promotes loose coupling and makes the system easier to test and maintain.
+
+## Deferred Binding
+Deferred Binding is achieved in this implementation by deciding which specific power supply class to instantiate based on the input provided to the CreatePSU method. This pattern allows the exact type of object to be determined at runtime, enabling greater flexibility.
+
+## Custom Library Usage
+The project makes use of a custom library (`PSULibrary`) that provides an interface (`IPSU`). This interface is central to the interaction with different power supply units, ensuring that the `Factory` can return any power supply type that implements this interface. This approach promotes a consistent API and makes it easier to add new power supply types in the future. Additionally, it ensures that the interface is completely abstracted from the specific power supply implementation, allowing for greater flexibility and decoupling the core logic from the hardware specifics.
+
+
 
 ## Features
 
